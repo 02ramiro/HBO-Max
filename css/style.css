@@ -183,20 +183,14 @@ ul li::marker {
 }
 
 .card__container-title {
-	position: relative;
 	z-index: 1;
 	width: 200px;
 	padding: 2px 21px;
 	background-image: linear-gradient(to bottom right, rgb(228, 7, 210), rgb(104, 5, 92));
 	border-radius: 20px;
 	margin-bottom: -45px;
-	margin-left: 57px;
 	font-size: 11px;
 	letter-spacing: 1px;
-}
-
-.card__title1 {
-	text-align: start;
 }
 
 .card__container-text {
@@ -723,16 +717,6 @@ ul li::marker {
 }
 
 
-@media (min-width: 450px) {
-
-	.card__container-title {
-		margin-left: 118px;
-	}
-
-
-}
-
-
 @media (min-width: 768px) {
 	.header__logo {
 		width: 160px;
@@ -826,7 +810,7 @@ ul li::marker {
 	.card__container-title {
 		margin: 20px;
 		margin-bottom: -37px;
-	    margin-left: 306px;
+	    
 	}
 
 	.card__container-text {
@@ -1205,7 +1189,6 @@ ul li::marker {
 	}
 
 	.card__container-title {
-		margin-left: 74px;
 		margin-top: 4px;
 		margin-bottom: -26px;
 	}
@@ -1454,4 +1437,5 @@ ul li::marker {
 	.questions__container-list {
 		margin: 0 180px;
 	}
+
 }
